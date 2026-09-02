@@ -10,7 +10,8 @@ Hakediş) Excel workbooks.
 
 ## Development setup
 
-Requires Python 3.12+ (with the `python3-venv` package on Debian/Ubuntu).
+Requires Python 3.12+. On Debian/Ubuntu the bootstrap script installs the
+`python3-venv` package automatically if it is missing (uses `sudo apt-get`).
 
 ```bash
 # One-time / idempotent bootstrap: creates .venv and installs dependencies.
